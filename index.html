@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-transform: capitalize;
+            text-decoration: none;
+            background-color: #FBFBFB;;
+        }
+        a{
+            color: black;
+        }
+
+        li{
+            list-style: none;
+        }
+        .header{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-left: 3rem;
+            margin-right: 3em;
+        }
+        ul{
+            display: flex;
+            gap: 4rem;
+            opacity: 0.75;
+            
+        }
+        .icon{
+            display: flex;
+            gap: 10px;
+        }
+        .headerbutton{
+            display: flex;
+            gap: 10px;
+        }
+        button{
+            width: 7rem;
+            height: 3rem;
+            border-radius: 1rem;
+            border-color: red;
+            color: red;
+        }
+        button:hover{
+            background-color: red;
+            color: white;
+        }
+        .main{
+            display: flex;
+            
+          
+            margin-top: 5rem;
+           
+            align-items: center;
+            justify-content: center;
+
+        
+
+        }
+        
+        
+            
+            
+           
+       
+        .information{
+            width: 35%;
+            
+        }
+        .avatar{
+            margin-left: 10rem;
+        }
+        /* @media (max-width:768px) {
+            .header :not(:first-child){
+                display: none;
+            }
+
+        } */
+       
+        .user{
+            border-right: 2px solid #EEEFF2;
+        }
+        .rectangle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10em;
+            
+            margin-top: 10em;
+        }
+        .location{
+             border-right: 2px solid #EEEFF2;
+        }
+        
+        .inside{
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 100px;
+            
+        }
+        .getstarted{
+            width: 15rem;
+            margin-top: 5rem;
+            border-radius: 0.5rem;
+            background-color: red;
+            color: white;
+        }
+        .secondmain{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 18rem ;
+            margin-top: 5rem;
+        }
+        .points{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            
+            
+        }
+        .pointer{
+            list-style-image: url(./assets/bx_bxs-check-circle.png);
+
+        }
+        .we{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        
+        .wee{
+            font-size: 16px;
+        }
+        .boxes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem;
+
+        }
+        .plan{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .choose{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 35px;
+        }
+        .firstbox p{
+            text-align: center;
+        }
+        .secondpointer{
+            list-style-image: url(./assets/Vector\ \(1\).png);
+            gap: 10rem;
+        }
+        .boxbutton{
+            display: flex;
+            width: 9rem;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+        .boxbuttonfinal{
+            display: flex;
+            width: 9rem;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: red;
+            color: white;
+
+        }
+        .price{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .firstbox{
+            display: flex;
+            border: 2px solid #DDDDDD;
+            height: 600px;
+            width: 200px;
+            padding: 20px;
+            border-radius: 0.5rem;
+            flex-direction: column;
+            gap:8rem ;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .secondbox{
+            display: flex;
+            border: 2px solid #DDDDDD;
+            height: 600px;
+            width: 200px;
+            padding: 20px;
+            border-radius: 0.5rem;
+            flex-direction: column;
+            gap:6rem ;
+        }
+        .thirdbox{
+            display: flex;
+            border: 2px solid #DDDDDD;
+            height: 600px;
+            width: 200px;
+            padding: 20px;
+            border-radius: 0.5rem;
+            flex-direction: column;
+            gap:6rem ;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <div class="icon">
+                    <img  src="./assets/Vector.png" alt="">
+                    <p>lesles<b>VPN</b></p>
+                </div>
+
+                <ul>
+                    <li><a href="">about</a></li>
+                    <li><a href="">features</a></li>
+                    <li><a href="">pricing</a></li>
+                    
+                    <li><a href="">testimonal</a></li>
+                    <li><a href="">help</a></li>
+                </ul>
+                <div class="headerbutton">
+                <button>sign in</button>
+                <button>sign up</button>
+            </div>
+            
+    </nav>
+    </header>
+
+    <div class="main">
+            
+        
+            <div class="information">
+            <h1>want any thing to be easy with <b>leslesVPN</b></h1>
+            <h2>provide a network with all your need with easy and fun  using <b>leslesVPN</b> discover intresting features from us </h2>
+            <button class="getstarted">getstarted</button>
+        </div>
+
+            
+            
+        
+              
+        <div class="avatar">
+        <img width="500px" src="./assets/Illustration 1.png" alt="">
+        </div>
+        
+    </div>
+
+    <div class="rectangle">
+        <div class="user">
+            <img src="./assets/user.png" alt="">
+            <ul class="inside">
+                <li>90+</li>
+                <li>users</li>
+            </ul>
+        </div>
+
+        <div class="location">
+            <img src="./assets/location.png" alt="">
+            <ul class="inside"> 
+                <li>30+</li>
+                <li>locations</li>
+            </ul>
+        </div>
+        
+
+        <div class="servers">
+            <img src="./assets/Server.png" alt="">
+            <ul class="inside">
+                <li>50+</li>
+                <li>servers</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="secondmain">
+
+        <div class="imagetwo">
+         <img src="./assets/Illustration 2.png" alt=""></div>
+
+         <div class="explain"> 
+         <p class="we">We Provide Many <br> Features You Can Use</p>      
+         <p class="wee">You can explore the features that we provide with fun <br> and have their own functions each feature.</p>    
+         <ul class="points">
+            <li class="pointer">Powerfull online protection.</li>
+            <li class="pointer">Internet without borders.</li>
+            <li class="pointer">Supercharged VPN</li>
+            <li class="pointer">No specific time limits.</li>
+         </ul> 
+         </div>
+        
+    </div>
+  
+   <div class="plan">
+    <div class="choose">
+    <p>Choose Your Plan</p>
+    
+    <p class="wee">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+   </div>
+   <div class="boxes">
+    <div class="firstbox">
+        <div class="content">
+        <img src="./assets/Free.png" alt="">
+        <p>Free plan</p>
+        <ul class="points">
+            <li class="secondpointer">Unlimited Bandwitch</li>
+            <li class="secondpointer">Encrypted Connection</li>
+            <li class="secondpointer">No Traffic Logs</li>
+            <li class="secondpointer">Works on All Devices</li>
+        </ul>
+    </div>
+        <div class="price">
+
+        <p><b>Free</b></p>
+        <button class="boxbutton">select</button>
+        </div>
+    </div> 
+    <div class="secondbox">
+        <div class="content">
+        
+        <img src="./assets/Standard.png" alt="">
+        <p>Standard plan</p>
+        <ul class="points">
+            <li class="secondpointer">Unlimited Bandwitch</li>
+            <li class="secondpointer">Encrypted Connection</li>
+            <li class="secondpointer">YES Traffic Logs</li>
+            <li class="secondpointer">Works on All Devices</li>
+            <li class="secondpointer">Connect Anyware</li>
+        </ul>
+        </div>
+        <div class="price">
+        <p><b>$9</b>/mo</p>
+        <button class="boxbutton">select</button>
+        </div>
+
+    </div> 
+    <div class="thirdbox">
+        <div class="content">
+        
+        <img src="./assets/Premium.png" alt="">
+        <p>permium plan</p>
+        <ul class="points">
+            <li class="secondpointer">Unlimited Bandwitch</li>
+            <li class="secondpointer">Encrypted Connection</li>
+            <li class="secondpointer">YES Traffic Logs</li>
+            <li class="secondpointer">Works on All Devices</li>
+            <li class="secondpointer">Connect Anyware</li>
+        </ul>
+        </div>
+        <div class="price">
+
+        <p><b>$12</b>/mo</p>
+
+        <button class="boxbuttonfinal">select</button>
+    </div>
+
+    
+
+   </div>
+
+    
+</body>
+</html>
